@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad Jamal portfolio website.</title>
+
+    
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section class="intro-section">
+        <header>
+            <a class="logo-txt" href="">aj</a>
+
+            <!-- <div class="menu-btn-container"> -->
+                <button class="menu-btn" data-visible="false">
+                    <span class="rectangle rectangle-top rectangle-small"></span>
+                    <span class="rectangle rectangle-middle"></span>
+                    <span class="rectangle rectangle-bottom rectangle-small"></span>
+                </button>
+            <!-- </div> -->
+        
+
+            <nav class="navbar" data-visible="false">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="intro-parent">
+            <img class="intro-img-container" src="images/intro-img.png">
+
+         
+            <div class="intro-title">
+                <h1>I design and build websites.</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="blank-space-1"></div>
+
+    <section class="about-section" id="about">
+        <div class="about-parent">
+            <h2 class="about-title m-bottom-sm">Hi. I’m Arshad Jamal.</h2>
+            <p class="m-bottom-sm">I’m a web developer based in Jharkhand, India. I create successful websites 
+                that are fast, easy to use, and built with best practices. My main experience 
+                is in front-end development but I also have a passion for design. 
+                I prefer to keep learning, continue challenging myself, and do interesting 
+                things that matter.</p>
+            <a class="hire-link" href="#contact">Hire me !</a>
+        </div>
+        <img class="indian-flag" src="images/indian-flag.png" alt="">
+    </section>
+
+    <div class="blank-space-2"></div>
+
+    <section class="works-section" id="works">
+        <div>
+            <h3 class="m-bottom-md">Works</h3>
+            <div class="works-group">
+                <div>
+                    <a class="m-bottom-md" href=""><img src="images/shibli-ss.png" alt=""></a>
+                    <a href=""><h4>Shibli</h4></a>
+                    <p>A website for a boy’s hostel business based in New Delhi.</p>
+                </div>
+                <div>
+                    <a class="m-bottom-md" href=""><img src="images/tincat-ss.png" alt=""></a>
+                    <a href=""><h4>Tincat</h4></a>
+                    <p>Just made this for fun: a tiny tinder's copy of cat's version.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="m-bottom-lg">
+            <h3 class="m-bottom-sm">Contact</h3>
+            <p>If you’d like to chat about a project or just have questions,
+                Please fill up the form below and I will reach out to you within 24 hours.</p>
+        </div>
+        <form action="">
+            <div class="flex-form-group">
+                <div class="form-group">
+                    <label for="name-input">NAME</label>
+                    <input type="text" class="form-control" id="name-input" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-input">EMAIL</label>
+                    <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Your email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="subject-input">SUBJECT</label>
+                <input type="text" class="form-control" id="subject-input" placeholder="What's the topic ?" required>
+            </div>
+            <div class="form-group">
+                <label for="textarea-input">MESSAGE</label>
+                <textarea class="form-control" id="textarea-input" rows="8" placeholder="How can I help you ?" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div class="socials">
+            <a href=""><img src="images/envelope-solid.svg" alt=""></a>
+            <a href=""><img src="images/twitter-brands.svg" alt=""></a>
+            <a href=""><img src="images/instagram-brands.svg" alt=""></a>
+        </div>
+        <!-- <a class="up-btn">
+            <img class="up-btn-arrow" src="images/angle-double-up-solid.svg" alt="">
+            <img class="up-btn-circle" src="images/arrow-circle-up-solid.svg" alt="">
+        </a> -->
+    </section>
+</body>
+</html>
