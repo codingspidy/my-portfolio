@@ -382,10 +382,8 @@ header {
 }
 
 .intro-parent {
-    /* max-width: 1400px; */
     width: 94%;
     margin-inline: auto;
-
  }
 
 .intro-img-container {
@@ -395,7 +393,6 @@ header {
     top: 0%;
     left: 0%;
     z-index: -10;
-    
 }
 
 .blank-space-1 {
@@ -442,7 +439,6 @@ header {
     margin-bottom: 20em;
 }
 .works-section h3 {
-    width: 400px;
     max-width: 910px;
     margin-inline: auto;
 }
@@ -597,10 +593,12 @@ input:-webkit-autofill{
         justify-content: flex-end;
     }
 
-    /* .works-section h3 {
-        width: 100%;
-    } */
+}
 
+@media (min-width: 500px) {
+    .works-section h3 {
+        width: 400px;
+    }
 }
 
 @media (min-width: 1024px) {
