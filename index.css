@@ -545,7 +545,7 @@ input:-webkit-autofill{
     justify-content: center;
 }
 
-.socials img:not(.up-btn img) {
+.socials img {
     display: block;
     width: 18px;
 }
