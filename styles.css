@@ -426,9 +426,13 @@ header {
     right: 0;
 }
 
-.hire-link {
-    text-decoration: underline;
+.contact-link {
     font-weight: 500;
+    text-decoration: underline;
+}
+
+.contact-link:hover {
+    text-decoration: none;
 }
 
 /* ------------ Works section-------------- */
@@ -448,6 +452,10 @@ header {
     font-weight: 500;
     font-size: var(--fs-h4);
     margin-bottom: .2em;
+}
+
+.works-section h4:hover {
+    text-decoration: none;
 }
 
 .works-section img {
