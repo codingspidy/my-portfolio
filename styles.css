@@ -288,6 +288,23 @@ header {
     margin-bottom: 13em;
 }
 
+.nav-links {
+    display: inline-block;
+    margin: 0;
+}
+
+.nav-links:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px #ffffff;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-links:hover:after { 
+    transform: scaleX(1);
+}
+
 @media (max-width: 1023px) {
 
     .navbar {
@@ -559,6 +576,10 @@ input:-webkit-autofill{
     width: 18px;
 }
 
+.socials img:hover {
+    position: relative;
+    bottom: 1px;
+}
 
 
 /* ---------------------------------------- */
