@@ -405,7 +405,7 @@ header {
 
 .intro-img-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -611,6 +611,10 @@ input:-webkit-autofill{
 
 
 @media (min-width: 767px) {
+
+    .blank-space-1 {
+        height: 400px;
+    }
 
     .intro-title {
         width: 80%;
