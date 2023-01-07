@@ -405,11 +405,17 @@ header {
 
 .intro-img-container {
     width: 100%;
-    max-width: 450px;
+    max-width: 700px;
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: -10px;
     z-index: -10;
+}
+
+@media (min-width: 768px) {
+    .intro-img-container {
+        left: -50px;
+    }
 }
 
 .blank-space-1 {
